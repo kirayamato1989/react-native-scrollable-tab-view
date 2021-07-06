@@ -154,7 +154,7 @@ const ScrollableTabBar = createReactClass({
   render() {
     const tabUnderlineStyle = {
       position: 'absolute',
-      height: 4,
+      height: this.props.underlineHeight || 1.5,
       backgroundColor: 'navy',
       bottom: 0,
     };
